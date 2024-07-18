@@ -9,6 +9,13 @@
 # nos caminhos de sys.path
 
 import modularizacao_m
+from modularizacao_m import soma, variavel_modulo
 
 print('Este módulo se chama', __name__)
 
+
+# print('Este módulo se chama', __name__)
+print(modularizacao_m.variavel_modulo)
+print(variavel_modulo)
+print(soma(2, 3))
+print(modularizacao_m.soma(2, 3))
